@@ -72,3 +72,8 @@ onkey(lambda: change(0, 10), 'Up')
 onkey(lambda: change(0, -10), 'Down')
 move()
 done()
+
+# Change 4 - added doc string print statements
+print(change.__doc__)
+print(inside.__doc__)
+print(move.__doc__)
